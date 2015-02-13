@@ -1,0 +1,141 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!-- C++Builder XML Project -->
+<PROJECT>
+  <MACROS>
+    <VERSION value="BCB.06.00"/>
+    <PROJECT value="MD5Hashr.exe"/>
+    <OBJFILES value="MD5Hashr.obj main.obj"/>
+    <RESFILES value="MD5Hashr.res res.res XPStyle.res"/>
+    <DEFFILE value=""/>
+    <RESDEPEN value="$(RESFILES) main.dfm"/>
+    <LIBFILES value=""/>
+    <LIBRARIES value="rtl.lib vcl.lib"/>
+    <SPARELIBS value="vcl.lib rtl.lib"/>
+    <PACKAGES value="vcl.bpi rtl.bpi vclx.bpi bcbsmp.bpi"/>
+    <PATHCPP value=".;"/>
+    <PATHPAS value=".;"/>
+    <PATHRC value=".;"/>
+    <PATHASM value=".;"/>
+    <DEBUGLIBPATH value="$(BCB)\lib\debug"/>
+    <RELEASELIBPATH value="$(BCB)\lib\release"/>
+    <LINKER value="ilink32"/>
+    <USERDEFINES value=""/>
+    <SYSDEFINES value="NO_STRICT"/>
+    <MAINSOURCE value="MD5Hashr.cpp"/>
+    <INCLUDEPATH value="&quot;C:\Program Files (x86)\Borland\CBuilder6\Projects&quot;;D:\Coding\c_builder_progs\MD5Hashr;$(BCB)\include;$(BCB)\include\vcl"/>
+    <LIBPATH value="&quot;C:\Program Files (x86)\Borland\CBuilder6\Projects&quot;;D:\Coding\c_builder_progs\MD5Hashr;$(BCB)\Projects\Lib;$(BCB)\lib\obj;$(BCB)\lib"/>
+    <WARNINGS value="-w-par"/>
+    <OTHERFILES value=""/>
+  </MACROS>
+  <OPTIONS>
+    <CFLAG1 value="-O2 -H=$(BCB)\lib\vcl60.csm -Hc -Vx -Ve -X- -a8 -b- -k- -vi -c -tW -tWM"/>
+    <PFLAGS value="-$Y- -$L- -$D- -$A8 -v -JPHNE -M"/>
+    <RFLAGS value=""/>
+    <AFLAGS value="/mx /w2 /zn"/>
+    <LFLAGS value="-D&quot;&quot; -aa -Tpe -x -Gn"/>
+    <OTHERFILES value=""/>
+  </OPTIONS>
+  <LINKER>
+    <ALLOBJ value="c0w32.obj sysinit.obj $(OBJFILES)"/>
+    <ALLRES value="$(RESFILES)"/>
+    <ALLLIB value="$(LIBFILES) $(LIBRARIES) import32.lib cp32mt.lib"/>
+    <OTHERFILES value=""/>
+  </LINKER>
+  <FILELIST>
+      <FILE FILENAME="MD5Hashr.res" FORMNAME="" UNITNAME="MD5Hashr.res" CONTAINERID="ResTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="MD5Hashr.cpp" FORMNAME="" UNITNAME="MD5Hashr" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="main.cpp" FORMNAME="frmMain" UNITNAME="main" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="res.rc" FORMNAME="" UNITNAME="res.rc" CONTAINERID="RC" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="XPStyle.rc" FORMNAME="" UNITNAME="XPStyle.rc" CONTAINERID="RC" DESIGNCLASS="" LOCALCOMMAND=""/>
+  </FILELIST>
+  <BUILDTOOLS>
+  </BUILDTOOLS>
+
+  <IDEOPTIONS>
+[Version Info]
+IncludeVerInfo=0
+AutoIncBuild=0
+MajorVer=1
+MinorVer=0
+Release=0
+Build=0
+Debug=0
+PreRelease=0
+Special=0
+Private=0
+DLL=0
+Locale=1031
+CodePage=1252
+
+[Version Info Keys]
+CompanyName=
+FileDescription=
+FileVersion=1.0.0.0
+InternalName=
+LegalCopyright=
+LegalTrademarks=
+OriginalFilename=
+ProductName=
+ProductVersion=1.0.0.0
+Comments=
+
+[Excluded Packages]
+c:\program files (x86)\borland\cbuilder6\Projects\Bpl\ThemeManagerC6D.bpl=Soft Gems Theme Manager
+c:\program files (x86)\borland\cbuilder6\Projects\Bpl\cooltrayXP.bpl=cooltrayXP
+c:\program files (x86)\borland\cbuilder6\Projects\Bpl\dxgettext.bpl=dxgettext
+c:\program files (x86)\borland\cbuilder6\Bin\dclite60.bpl=Borland Integrierte Übersetzungsumgebung
+c:\program files (x86)\borland\cbuilder6\Bin\dclindy60.bpl=Internet Direct (Indy) für Eigenschafts- und Komponenteneditoren von D6
+c:\program files (x86)\borland\cbuilder6\Bin\bcb2kaxserver60.bpl=Borland C++Builder COM Server Components Sample Package
+c:\program files (x86)\borland\cbuilder6\Bin\dclocx60.bpl=Borland Importierte Beispiel-ActiveX-Steuerelemente
+c:\program files (x86)\borland\cbuilder6\Projects\Bpl\TProgressBarExt.bpl=TProgressBarExt
+c:\program files (x86)\borland\cbuilder6\Projects\Bpl\TBarcode.bpl=TBarcode
+c:\program files (x86)\borland\cbuilder6\Bin\dclado60.bpl=Borland ADO-DB-Komponenten
+C:\Program Files (x86)\Borland\CBuilder6\Bin\dcldb60.bpl=Borland Datenbankkomponenten
+c:\program files (x86)\borland\cbuilder6\Bin\dclqrt60.bpl=QuickReport-Komponenten
+C:\Windows\SysWOW64\ibevnt60.bpl=Borland Interbase Event Alerter Component
+c:\program files (x86)\borland\cbuilder6\Bin\dclbde60.bpl=Borland BDE-DB-Komponenten
+C:\Program Files (x86)\Borland\CBuilder6\Bin\dbx60.bpl=Borland SQL-Explorer UI-Package
+c:\program files (x86)\borland\cbuilder6\Bin\dclcds60.bpl=Borland Basiskomponente für Cached ClientDatasets
+C:\Program Files (x86)\Borland\CBuilder6\Bin\dclmid60.bpl=Borland MyBase-Datenzugriffskomponenten
+c:\program files (x86)\borland\cbuilder6\Bin\dclbdecds60.bpl=Borland Local BDE-ClientDataSet-Komponenten
+c:\program files (x86)\borland\cbuilder6\Bin\dcltee60.bpl=TeeChart-Komponenten
+c:\program files (x86)\borland\cbuilder6\Bin\applet60.bpl=Borland Systemsteuerungs-Applet-Package
+c:\program files (x86)\borland\cbuilder6\Bin\dcltqr60.bpl=TeeChart für QuickReport-Komponenten
+c:\program files (x86)\borland\cbuilder6\Bin\dclsmpedit60.bpl=Borland Editor-Script-Erweiterungen
+c:\program files (x86)\borland\cbuilder6\Bin\dclib60.bpl=InterBase Datenzugriffskomponenten
+c:\program files (x86)\borland\cbuilder6\Bin\dclclxdb60.bpl=Borland CLX-Datenbankkomponenten
+C:\Program Files (x86)\Borland\CBuilder6\Bin\dclclxstd60.bpl=Borland CLX-Standardkomponenten
+c:\program files (x86)\borland\cbuilder6\Bin\dclemacsedit60.bpl=Borland Emacs-Erweiterungen für den Editor
+c:\program files (x86)\borland\cbuilder6\Bin\dclact60.bpl=Borland ActionBar Components
+c:\program files (x86)\borland\cbuilder6\Bin\idefilters60.bpl=IDE Filter for CPP32
+c:\program files (x86)\borland\cbuilder6\Bin\dclmlwiz60.bpl=Borland Spracheinstellungs-Experten
+c:\program files (x86)\borland\cbuilder6\Bin\dclnet60.bpl=Borland Internet-Komponenten
+c:\program files (x86)\borland\cbuilder6\Bin\DBWEBXPRT.BPL=Borland Web-Experten-Package
+c:\program files (x86)\borland\cbuilder6\Bin\DCLNMF60.bpl=NetMasters Fastnet-Tools
+c:\program files (x86)\borland\cbuilder6\Bin\bcbie60.bpl=Borland C++Builder Internet Explorer 5 Components Package
+c:\program files (x86)\borland\cbuilder6\Bin\dclsoap60.bpl=Borland SOAP-Komponenten
+c:\program files (x86)\borland\cbuilder6\Bin\dcldbx60.bpl=Borland dbExpress-Komponenten
+c:\program files (x86)\borland\cbuilder6\Bin\dcldbxcds60.bpl=Borland Local DBX-ClientDataSet-Komponenten
+c:\program files (x86)\borland\cbuilder6\Bin\dcl31w60.bpl=Borland Kompatibilitätskomponenten für Delphi 1.0
+
+[Debugging]
+DebugSourceDirs=$(BCB)\source\vcl
+
+[Parameters]
+RunParams=
+Launcher=
+UseLauncher=0
+DebugCWD=
+HostApplication=
+RemoteHost=
+RemotePath=
+RemoteLauncher=
+RemoteCWD=
+RemoteDebug=0
+
+[Compiler]
+ShowInfoMsgs=0
+LinkDebugVcl=0
+LinkCGLIB=0
+  </IDEOPTIONS>
+</PROJECT>
